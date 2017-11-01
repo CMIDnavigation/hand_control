@@ -5,11 +5,14 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT += testlib
+LIBS += -luser32
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = hand_control
 TEMPLATE = app
+
 
 
 SOURCES += main.cpp\

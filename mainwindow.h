@@ -2,6 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QCursor>
+#include <windows.h>
+#include <QString>
+
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +21,11 @@ public:
 
 private:
     Ui::MainWindow *ui;
+private slots :
+    void slot_move_and_click(int x, int y);
+    void on_btn_set_pos_pressed();
+    void on_pushButton_pressed();
+    void slot_press_value(QString message);
 };
 
 #endif // MAINWINDOW_H
