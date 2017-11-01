@@ -14,19 +14,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>120</y>
-      <width>111</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
    <widget class="QSpinBox" name="spinBox">
     <property name="geometry">
      <rect>
@@ -50,8 +37,8 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>70</y>
+      <x>20</x>
+      <y>40</y>
       <width>392</width>
       <height>25</height>
      </rect>
@@ -67,16 +54,60 @@
      <item>
       <widget class="QLineEdit" name="line_x">
        <property name="text">
-        <string>30</string>
+        <string>825</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QLineEdit" name="line_y">
        <property name="text">
-        <string>1050</string>
+        <string>512</string>
        </property>
       </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>218</width>
+      <height>76</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btn_start_execute">
+       <property name="text">
+        <string>Запустить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLineEdit" name="line_1">
+         <property name="text">
+          <string>-0.001</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="line_2">
+         <property name="text">
+          <string>0.0021</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="line_3">
+         <property name="text">
+          <string>0.00634</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </item>
     </layout>
    </widget>

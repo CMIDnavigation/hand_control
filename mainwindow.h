@@ -24,8 +24,8 @@ private:
 private slots :
     void slot_move_and_click(int x, int y);
     void on_btn_set_pos_pressed();
-    void on_pushButton_pressed();
     void slot_press_value(QString message);
+    void on_btn_start_execute_pressed();
 };
 
 #endif // MAINWINDOW_H
